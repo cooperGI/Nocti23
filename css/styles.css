@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+
+}
+
+body{
+    text-align: center;
+    background-color: #F4D35E;
+}
+
+
+
+blockquote{
+    font-size: 10em;
+    color: #0D3B66;
+}
+
+nav{
+    font-size: 2em;
+    text-align: center;
+    background-color: #0D3B66;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a:hover{
+    font-size: 2.1em;
+}
+
+nav a{
+    color: #FAF0CA;
+    padding: 20px;
+}
