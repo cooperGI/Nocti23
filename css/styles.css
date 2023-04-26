@@ -80,7 +80,7 @@ nav a{
 }
 
 div p{
-    padding: 30px;
+    padding: 20px;
 }
 
 #button1{
@@ -115,4 +115,151 @@ div p{
     color:#0D3B66;
     text-align: center;
     padding: 50px;
+}
+
+.map{
+    width: 60%;
+}
+
+.submit{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 2em;
+    margin: 10px;
+    background-color: #0D3B66;
+    color: #FAF0CA;
+}
+
+legend{
+    font-size: 3em;
+    padding: 20px;
+    color: #0D3B66;
+}
+
+label{
+    color: #0D3B66;
+    font-size: 2em;
+}
+
+#s1{
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    color: #0D3B66;
+    float: right;
+    font-size: 2em;
+}
+
+#s2{
+    width: 30%;
+    background-color:#0D3B66;
+    border-radius: 20px;
+    margin: 20px;
+    color: #FAF0CA;
+    float: right;
+    font-size: 2em;
+}
+
+#s3{
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    color: #FAF0CA;
+    float: right;
+    font-size: 2em;
+}
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas:
+        "it1 it2 it3"
+        "it4 it5 it6";
+    grid-gap: 1% 1%;
+    margin: 10% 0%;
+    justify-content: center;
+}
+
+.grid img {
+    max-width: 100%;
+}
+
+#item1 {
+    grid-area: it1; 
+}
+
+#item2 {
+    grid-area: it2; 
+}
+
+#item3 {
+    grid-area: it3; 
+}
+
+#item4 {
+    grid-area: it4; 
+}
+
+#item5 {
+    grid-area: it5; 
+}
+
+#item6 {
+    grid-area: it6; 
+}
+
+#comp1{
+	width: 80%;
+	background-color: #FAF0CA;
+	margin: 0 auto;
+	font-size: 2em;
+	border-radius: 20px;
+	color: #0D3B66;
+	margin-bottom: 30px;
+}
+
+
+#comp2{
+	width: 80%;
+	background-color: white;
+	margin: 0 auto;
+	font-size: 2em;
+	border-radius: 20px;
+	color: #0D3B66;
+}
+
+#comp3{
+	width: 80%;
+	background-color: #0D3B66;
+	margin: 0 auto;
+	font-size: 2em;
+	border-radius: 20px;
+	color: #FAF0CA;
+}
+
+
+.compimg1{
+	float: right;
+	margin: 20px;
+	margin-right: 40px;
+	width: 40%;
+	
+}
+
+.compimg2{
+	float: left;
+	margin: 20px;
+	margin-left: 40px;
+	width: 35%;
+	
+}
+
+.compimg3{
+	float: left;
+	margin: 20px;
+	margin-left: 40px;
+	width: 45%;
 }
